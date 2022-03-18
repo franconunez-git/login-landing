@@ -25,13 +25,13 @@ input[type=text]{
 }
 
 ::placeholder{
-	color: silver;
+	color: #757d6f;
 }
 
 #entrar{
 	color: white;
-	border-color: blue;
-	background-color: blue;
+	border-color: rgb(60, 60, 168);
+	background-color: rgb(60, 60, 168);
 	border-radius: 5px;
 	width: 177px;
 	height: 60px;
@@ -44,10 +44,10 @@ input[type=text]{
 
 	border-radius: 15px;
 	padding: 2px 6px 2px 6px;
-	border-top: 1px solid black;
-  	border-right: 1px solid black;
-  	border-bottom: 1px solid black;
-	border-left: 1px solid black;
+	border-top: 1px solid #757d6f;
+  	border-right: 1px solid #757d6f;
+  	border-bottom: 1px solid #757d6f;
+	border-left: 1px solid #757d6f;
 	
 	font-size:15px;
 	font-family:Arial;
