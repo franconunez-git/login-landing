@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -6,8 +6,12 @@ body {
 
 div{
 	display: flex;
-	min-height: 100vh;
+	min-height: 97vh;
 	flex-direction: column;
 	justify-content: center;
   	align-items: center;
+}
+
+h3{
+	align-self: center;
 }
