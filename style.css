@@ -1,14 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Arial;
 	margin: 0px;
 	padding: 0px;
 	height: 100vh;
 	width: 100vw;
 }
 
-div{
+#all{
 	display: flex;
 	min-height: 100vh;
 	min-width: 100vh;
@@ -30,8 +28,30 @@ input[type=text]{
 	color: silver;
 }
 
-button{
+#entrar{
+	color: white;
+	border-color: blue;
+	background-color: blue;
+	border-radius: 5px;
 	width: 177px;
 	height: 60px;
-
 }
+
+#olvide {
+	display: inline-block;
+	align-self: center;
+	text-decoration: none;
+
+	border-radius: 15px;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid black;
+  	border-right: 1px solid black;
+  	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	
+	font-size:15px;
+	font-family:Arial;
+	color: #757d6f;
+	font-weight: bold;
+	background-color: transparent;
+  }
