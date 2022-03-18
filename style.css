@@ -1,12 +1,13 @@
-#avatar{
-	background-color: aquamarine;
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
-article{
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+div{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
 }
